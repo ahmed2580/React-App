@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.NotFound{
+  padding: 2em;
+  background-color: #acd586;
+  text-align: center;
+}
+.NotFound h2 {
+  font-size: 2em;
+  padding: 5em;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.UserGrid{
+  padding: 0;
+  margin: 0;
+  background-color: rgb(127, 255, 155);
+  
+  
+}
+.UserGrid ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.UserGrid ul li{
+margin: 1em;
+}
+figure{
+  /* width: 30%; */
+  height: 35vh;
+  background-color: #222;
+  margin: 0 auto;
+  border-radius: 1em; 
+  color: #00ff25;
+}
+.UserGrid  img{
+  /* width: 30%; */
+  height: 30vh;
+  background-color: #222;
+  margin: 1em auto;
+  border: 1px solid #00ff25;
+  border-radius: 50%; 
+  
+}
